@@ -17,12 +17,10 @@ The Get My Weather API allows you to embed a micro-forecast into an HTML page or
 
 ### Parameters
 
-Parameters | 
 ------------
 ```
-LATITUDE
+LATITUDE | # Required
 ```
-: Required
 ------------
 ```
 LONGITUDE
@@ -37,7 +35,13 @@ SPECIFICITY
 ```
 TIME
 ```
-: Required 
+: Required <div class="forecast">
+	<div class="temperature">78</div>
+	<div class="windspeed">15</div>
+	<div class="chanceRain">30</div>
+	<div class="trust">80</div>
+</div>
+
 ### Example API Call
 ```
 <script async defer   src="https://www.getmyweather.com/getWeather?
