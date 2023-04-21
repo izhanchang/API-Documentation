@@ -68,12 +68,12 @@ When you make a call, the getWeather API returns an HTML structure in the elemen
 |-------------|----------|---------------------|
 | Location    | Required | Geographical coordinates for latitude and longitude. This parameter should be entered in ISO 6709 format.|  
 | Specificity | Required | Specificity describes how wide of a radius you want to include in your search. The minimum value is 10 meters; the maximum value is 100,000 meters.            |
-| Time        | Required | Time describes when you want the weather forecasted. This parameter must be in the future and entered as hours, where decimals are allowed. (e.g. 2.75 hours)|
+| Time        | Required | Time describes when you want the weather forecasted. This parameter must be in the future and entered as hours, where decimals are allowed (e.g. 2.75 hours).|
 |Key          | Required | The API key is provided by GetMyWeather when you register to use the API.|  
 
 ### Possible Error Codes
 
 - **Invalid Key**: The API key is not valid. Check your existing key or register for a new one.
-- **Invalid Parameter Format**: One or more parameters is formatted incorrectly. Check if each parameter is formatted according to the specified format.
+- **Invalid Parameter Format**: One or more parameters is formatted incorrectly. Check each parameter is formatted correctly. 
 - **Parameter out of range**: One or more parameters is outside of its allowable range. Check each parameter is within its range.
 - **Server unavailable**: The server is temporarily unavailable. Try again later.
